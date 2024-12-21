@@ -23,6 +23,7 @@ class _CryptoCoinScreenState extends State<CryptoCoinScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text(coinName ?? '...')),
+      body: Center(),
     );
   }
 }
